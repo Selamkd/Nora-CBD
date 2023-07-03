@@ -299,23 +299,27 @@ span{
   }
   
   @media  (max-width: 500px) {
-        .container{
-          width:500px;
-        }
-        .headline{
-          width:300px;
-        }
-        .container-2{
-          width:500px;
-        }
-        .container-3{
-          width:500px;
-        }
-        .container-4{
-          width:500px;
-        }
-        footer{
-          width:500px;
-          padding:10px;
-        }
-  }
+    .container{
+      width:600px;
+    }
+    .headline{
+     width:200px;
+     margin-right:50px;
+    }
+    .container-2{
+      width:500px;
+    }
+    .container-3{
+      width:600px;
+    }
+    .container-4{
+      width:600px;
+    }
+    footer{
+      width:550px;
+      padding:30px;
+    }
+    footer h2{
+      font-size:28px;
+    }
+}
