@@ -4,6 +4,15 @@
     margin:0;
     padding:0;
 }
+html {
+  line-height: 1.15; 
+  -webkit-text-size-adjust: 100%; 
+}
+hr {
+  box-sizing: content-box; 
+  height: 0; 
+  overflow: visible; 
+}
 body{
     background-color: #e4e3fd;
 }
@@ -180,7 +189,7 @@ span{
  
   }
   .container-4 h1{
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-size: 3rem;
     color:#231f20;
     text-shadow:0px 1px 2px #eef584 ;
@@ -249,7 +258,7 @@ span{
 
     }
     .headline h1{
-      font-size:24px;
+
     }
     .headline button{
       font-size:12px;
@@ -264,35 +273,14 @@ span{
     flex-direction:column;
     margin-bottom:20px;
   }
-  .container-3 h1{ 
-     padding:10px;
-     font-size:20px;
-     text-align: center;
-  }
-  .container-4 h1{ 
-    padding:10px;
-    font-size:24px;
-    text-align: center;
-    font-family: 'Lora', sans-serif;
- }
+  
+ 
   .container-3 p{
     padding:10px;
     font-size:16px;
     tex-align:center;
   }
-  .container-3 .img-box{
-    align-items: center;
-    flex-wrap:nowrap
-  }
-  .container-3 .img-1{
-    width:250px;
-  }
-  .container-3 .img-box #hand{
-    display:none;
-  }
-  .container-4 .img-box-2{
-    margin-left:10px;
-  }
+  
   .container-4 figcaption{
     margin-bottom:10px;
     
@@ -301,10 +289,16 @@ span{
   @media  (max-width: 500px) {
     .container{
       width:600px;
+      height: 400px;;
     }
     .headline{
      width:200px;
      margin-right:50px;
+     height: auto;
+     overflow:scroll;
+    }
+    .headline h1{
+      font-size: 28px;;
     }
     .container-2{
       width:500px;
@@ -315,11 +309,36 @@ span{
     .container-4{
       width:600px;
     }
+    .container-3 h1{ 
+      padding:10px;
+      font-size:20px;
+      text-align: center;
+   }
+   .container-4 h1{ 
+     padding:10px;
+     font-size:24px;
+     text-align: center;
+     font-family: 'Lora', sans-serif;
+   }
     footer{
       width:550px;
       padding:30px;
     }
+    .container-3 .img-box #hand{
+      display:none;
+    }
+    .container-3 .img-box{
+      align-items: center;
+      flex-wrap:nowrap
+    }
+    .container-3 .img-1{
+      width:250px;
+    }
+  
+    .container-4 .img-box-2{
+      margin-left:10px;
+    }
     footer h2{
       font-size:28px;
     }
-}
+  }
